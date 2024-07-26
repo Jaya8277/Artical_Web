@@ -3,7 +3,7 @@ export const GETDATA="GETDATA"
 export const SENDDATA="SENDDATA"
 export const getdata=(payload,dispatch)=>{
     // console.log(payload);
-    axios.post("http://localhost:3000/blog/bycategory",payload) 
+    axios.post("http://localhost:5000/blog/bycategory",payload) 
     .then(res=>{
         dispatch({
             type:GETDATA,

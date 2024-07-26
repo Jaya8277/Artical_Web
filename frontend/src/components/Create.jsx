@@ -47,7 +47,7 @@ export default function InitialFocus() {
 		};
 
 		axios
-			.post("http://localhost:3000/blog/create", obj, {
+			.post("http://localhost:5000/blog/create", obj, {
 				headers: {
 					authorization: `bearer ${token}`,
 				},

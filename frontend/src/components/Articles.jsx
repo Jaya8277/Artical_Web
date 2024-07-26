@@ -15,7 +15,7 @@ function Articles() {
 	//
 	const getdata = () => {
 		axios
-			.get("http://localhost:3000/blog", {
+			.get("http://localhost:5000/blog", {
 				headers: {
 					Authorization: `bearer ${token}`,
 				},
@@ -42,7 +42,7 @@ function Articles() {
 
 	function deleteitem(id) {
 		axios
-			.delete(`http://localhost:3000/blogs/${id}`)
+			.delete(`http://localhost:5000/blogs/${id}`)
 			.then((res) => {
 				console.log(res.data);
 				getdata();

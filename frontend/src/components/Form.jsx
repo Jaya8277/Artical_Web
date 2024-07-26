@@ -23,7 +23,7 @@ export default function SimpleCard() {
 	//
 	function login(email, password) {
 		axios
-			.post("http://localhost:3000/login", { email, password })
+			.post("http://localhost:5000/login", { email, password })
 			.then((res) => {
 				if (res.data.token) {
 					localStorage.setItem("token", res.data.token);

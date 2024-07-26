@@ -31,7 +31,7 @@ export default function SignupCard() {
 			password,
 		};
 
-		axios.post("http://localhost:3000/signup", obj).then((res) => {
+		axios.post("http://localhost:5000/signup", obj).then((res) => {
 			console.log(res);
 			navigate("/login");
 			alert("Account Created Successfully");
