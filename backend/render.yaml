@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: article-web-backend
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    plan: free
+    branches:
+      - main
+    envVars:
+      - key: SECRET_KEY
+        value: test
+      - key: MONGO_URI
+        value: mongodb+srv://blog:blog@cluster0.bufrh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
