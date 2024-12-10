@@ -2,6 +2,7 @@
         <p align="center">Welcome to the Article Web App – your ultimate platform for managing and exploring articles with style and ease! Whether you're a content creator, journalist, or simply a passionate reader, our app is designed to provide a seamless experience for creating, organizing, and enjoying your favorite articles.</p>
         <img src="https://example.com/your-image.gif" alt="Article Web App" class="img-center">
 
+
   <h2>🌟 Features</h2>
             <ul>
                 <li><strong>📝 Comprehensive Article Management:</strong> Effortlessly create, read, update, and delete articles with our intuitive, user-friendly interface.</li>
